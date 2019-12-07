@@ -39,7 +39,7 @@ string response = result.Response;
 
 
 
-[KomodoRpcClient.Gui](KomodoRpcClient.Gui) is a WPF application that wraps all of this into an easy to use UI.
+[KomodoRpcClient.GUI](KomodoRpcClient.GUI) is a WPF application that wraps all of this into an easy to use UI.
 
 ![GUIScreenShot](docs/GUIScreenShot.jpg)
 
