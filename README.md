@@ -20,7 +20,7 @@ var api = apiFile.Api;
 
 
 
-[KomodoRpcClient.Rpc](KomodoRocClient.Rpc) contains all of the RPC related functionality required for making RPC requests.
+[KomodoRpcClient.Rpc](KomodoRpcClient.Rpc) contains all of the RPC related functionality required for making RPC requests.
 `RpcSettings` is a serializable class that can be used to create an `RpcClient(RpcSettings settings)` object.
 Here's the recommended way to use this class:
 
@@ -41,6 +41,6 @@ string response = result.Response;
 
 [KomodoRpcClient.Gui](KomodoRpcClient.Gui) is a WPF application that wraps all of this into an easy to use UI.
 
-![GUIScreenShot](docs\GUIScreenShot.jpg)
+![GUIScreenShot](docs/GUIScreenShot.jpg)
 
 On first run, a sample `RpcSettings.json` file is created for you. None of the methods will execute until this file is filled out correctly.
