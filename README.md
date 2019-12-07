@@ -30,7 +30,7 @@ var result = await rpc.CallAsync ( "methodName", "JSON serialized params array" 
 if ( result.HasError )
 {
 	Exception error = result.Error;
-    // Do something about it!
+	// Do something about it!
 }
 string response = result.Response;
 ```
